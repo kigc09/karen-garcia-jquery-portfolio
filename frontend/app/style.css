@@ -5,6 +5,9 @@
     Animations and glassmorphism effects are used for a modern look.
 */
 
+/* Import Inter font for modern typography */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
 /* Root variables for colors, gradients, shadows, etc. */
 :root {
     /* Color palette for dark theme */
@@ -89,9 +92,6 @@ body::before {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.7; }
 }
-
-/* Import Inter font for modern typography */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 /* Top App Bar styles: glassmorphism, shadow, transitions */
 .mdc-top-app-bar {

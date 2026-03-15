@@ -22,7 +22,7 @@ export default function RootLayout({
           {/* Roboto font for clean typography */}
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
           {/* Custom styles for the portfolio */}
-          <link rel="stylesheet" href="css/style.css"/>
+          
           
           {/* jQuery library for DOM manipulation and event handling */}
           <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
