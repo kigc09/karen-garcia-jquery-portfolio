@@ -29,9 +29,9 @@ export default function RootLayout({
           {/* Material Design Components JS for interactive UI elements */}
           <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
           {/* Custom JavaScript for portfolio interactions */}
-          <script src="js/app.js" defer></script>
+          <script src="./app.js" defer></script>
         </head>
-        <body>
+        <body className="mdc-typography">
           {children}
         </body>
     </html>
