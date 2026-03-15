@@ -1,5 +1,5 @@
 {
-  "name": "my-jquery-app",
+  "name": "frontend",
   "version": "1.0.0",
   "description": "A simple jQuery application",
   "main": "src/js/app.js",
