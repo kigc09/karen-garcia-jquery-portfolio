@@ -1,6 +1,6 @@
-export default function Home() {
+export default function Page() {
     return (
-    <main className="mdc-top-app-bar--fixed-adjust mdc-typography">
+    <main className="mdc-top-app-bar--fixed-adjust">
         <div className="content-container">
             {/* Hero Section: Introduction and profile */}
             <section className="hero-section" id="hero">

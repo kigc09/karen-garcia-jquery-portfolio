@@ -1,4 +1,5 @@
 import "./style.css";
+import Script from "next/script"
 
 export const metadata = {
   title: 'Next.js',
