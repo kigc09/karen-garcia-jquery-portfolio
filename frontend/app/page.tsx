@@ -1,6 +1,7 @@
 export default function Page() {
     return (
-    <main className="mdc-top-app-bar--fixed-adjust">
+    <>
+        <main className="mdc-top-app-bar--fixed-adjust">
         <div className="content-container">
             {/* Hero Section: Introduction and profile */}
             <section className="hero-section" id="hero">
@@ -147,5 +148,6 @@ export default function Page() {
             <span className="material-icons mdc-fab__icon">keyboard_arrow_up</span>
         </button>
     </main>
+    </>
     );
 }
