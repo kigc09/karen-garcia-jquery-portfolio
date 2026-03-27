@@ -1,5 +1,3 @@
-import "./js/app.js";
-
 export default function Page() {
     return (
     <>

@@ -28,7 +28,7 @@ export default function RootLayout({children}:{children: React.ReactNode})
           {/* Material Design Components JS for interactive UI elements */}
           <Script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js" strategy="afterInteractive"/>
           {/* Custom JavaScript for portfolio interactions */}
-          <Script src="/app.js" strategy="afterInteractive"/>
+          <Script src="/js/app.js" strategy="afterInteractive"/>
           {children}
         </body>
     </html>
